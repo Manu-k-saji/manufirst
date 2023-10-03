@@ -1,0 +1,119 @@
+.head{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.f1{
+    color: black;
+    background-color: white;
+
+}
+.center{
+    width: 100%;
+    background-image: url(./images/fixedbackground.jpg);
+background-size: cover;
+}
+.r1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.r2 {
+    color: white;
+    padding-left: 100px;
+
+}
+.r3{
+    color: rgba(255, 255, 255, 0.781);
+    padding-left: 100px;
+}
+.r4{
+    color: rgba(255,255,255,0.781);
+    padding-left: 100px;
+}
+.r5{
+    background-color: rgba(255, 255, 255, 0.801);
+color: black;
+width: 100px;
+}
+
+
+.parent{
+    width: 100%;
+    background-color: white;
+     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+
+}
+.col{
+    border: gold;
+    height: 400px;
+    width: 250px;
+    padding: 20px;
+    background-color:white;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.671);
+    border-radius: 100px;
+    
+}
+.col:hover {
+    background-color: rgba(0, 0, 0, 0.418);
+
+  
+}
+
+img {
+    height: 180px;
+    width: 200px;
+    padding-left: 27px;
+    padding-top: 40px;
+}
+h5 {
+    text-align: center;
+    color:black;
+}
+.c1 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+p {
+    color: black;
+    text-align: center;
+}
+
+
+button {
+    width: 70px;
+    height: 33px;
+    background-color: rgba(255, 255, 0, 0.925);
+    color: black;
+    border-radius: 30px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+} 
+@media(min-width:300px)and (max-width: 600px){
+    h1 {
+        font-size:large;
+        
+    }
+.r5{
+    font-size: small;
+}
+a{
+    font-size: small;
+}
+}
